@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Cátalogo de Animales</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,141 +10,155 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-light">
-          <div class="container-fluid">
-            <a href="index.html"><img src="img/logos/logo.png" alt="" class="img-fluid" width="100"></a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selecciona categoría</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="anfibios.html">Anfibios</a>
-                            <a class="dropdown-item" href="aves.html">Aves</a>
-                            <a class="dropdown-item" href="mamiferos.html">Mamíferos</a>
-                            <a class="dropdown-item" href="peces.html">Peces</a>
-                            <a class="dropdown-item" href="reptiles.html">Reptiles</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#SignUp" href="#">Registrate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#LogIn" href="#">Inicia sesión</a>
-                    </li>
-                </ul>
-            </div>
-      </div>
-    </nav>
-    
-  </header>
-  <div class="container text-center">
-    <div id="carouselId" class="carousel slide mt-3" data-bs-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
-        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fiveth slide"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <img src="img/carrusel/anfibios1.png" class="w-100 d-block" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
+<body class="bg-light">
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid">
+              <a href="index.html"><img src="img/logos/logo.png" alt="" class="img-fluid" width="100"></a>
+              <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavId">
+                  <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="index.html" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selecciona categoría</a>
+                          <div class="dropdown-menu" aria-labelledby="dropdownId">
+                              <a class="dropdown-item" href="anfibios.html">Anfibios</a>
+                              <a class="dropdown-item" href="aves.html">Aves</a>
+                              <a class="dropdown-item" href="mamiferos.html">Mamíferos</a>
+                              <a class="dropdown-item" href="peces.html">Peces</a>
+                              <a class="dropdown-item" href="reptiles.html">Reptiles</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-bs-toggle="modal" data-bs-target="#SignUp" href="#">Registrate</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" data-bs-toggle="modal" data-bs-target="#LogIn" href="#">Inicia sesión</a>
+                      </li>
+                  </ul>
+              </div>
+        </div>
+      </nav>
+      
+    </header>
+  <main>
+    <p class="text-center display-5">Catálogo de animales</p>
+    <h2 class="text-center"> <strong>Reptiles. Encontrados: 4</strong></h2>
+    <div class="container">
+      <hr>
+      <div class="row flex-nowrap justify-content-start bg-white overflow-auto mx-0">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <div>
+            <img src="img/Reptiles/culebra.jpg" alt="" width="100%">
+            <p class="text-center bg-verdesito text-white"><strong>Culebra</strong></p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/carrusel/aves1.png" class="w-100 d-block" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <div>
+            <img src="img/Reptiles/galapago.jpg" alt="" width="100%">
+            <p class="text-center bg-verdesito text-white"><strong>Galapago</strong></p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/carrusel/mamiferos1.png" class="w-100 d-block" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <div>
+            <img src="img/Reptiles/lagartija.jpg" alt="" width="100%">
+            <p class="text-center bg-verdesito text-white"><strong>Lagartija</strong></p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/carrusel/peces1.png" class="w-100 d-block" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="img/carrusel/reptiles1.png" class="w-100 d-block" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <div>
+            <img src="img/Reptiles/lagarto.JPG" alt="" width="100%">
+            <p class="text-center bg-verdesito text-white"><strong>Lagarto</strong></p>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
+      <hr>
+      <h2 class="text-center">Culebra Bastarda</h2>
+      <hr>
+      <div class="verde-claro px-3">
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <h2>Taxonomía</h2>
+              <table class="table table-striped ">
+                <tbody>
+                  <tr>
+                    <td>Reino:</td>
+                    <td>Animalia</td>
+                  </tr>
+                  <tr>
+                    <td>Filo:</td>
+                    <td>Chordata</td>
+                  </tr>
+                  <tr>
+                    <td>Clase:</td>
+                    <td>Sauropsida</td>
+                  </tr>
+                  <tr>
+                    <td>Orden:</td>
+                    <td>Squamata</td>
+                  </tr>
+                  <tr>
+                    <td>Familia:</td>
+                    <td>Colubridae</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          <div class="col-lg-8">
+            <h3>Malpolon monspessulanus </h3>
+            <p>La culebra bastarda o de Montpellier (Malpolon monspessulanus) es una especie de reptil escamoso de la familia Colubridae. Es una serpiente venenosa opistoglifa (con los dientes inoculadores de veneno situados en la parte posterior de la boca) que no es peligrosa para el hombre.</p>
+            <h3>Características</h3>
+            <p>Los ejemplares macho adultos pueden llegar a superar con facilidad los 2 m de longitud total; son frecuentemente menores, aunque individuos muy excepcionales pueden alcanzar hasta 2,55 m, siendo, por tanto, la mayor especie de la península ibérica y del resto de Europa. Posee dientes venenosos en la parte posterior del maxilar superior (opistoglifa).
+              La cabeza presenta un aspecto muy característico, pues posee ojos grandes, con las escamas supraoculares muy salientes que forman una especie de ceja muy prominente que le da una expresión de mirada penetrante. La escama frontal es característicamente estrecha. Posee ocho escamas supralabiales de las que la 4.ª y la 2.ª están bordeando el ojo. Las escamas del dorso son lisas y con arcos, pero nunca carenadas, formando 17 o 19 hileras en el centro del cuerpo: de 160 a 189 escamas ventrales. La cola representa aproximadamente 1/4 de la longitud total. Presenta un dorso oliváceo o pardusco claro generalmente uniforme, mostrando en el tercio anterior una zona de manchas negruzcas (en los machos y de vez en cuando hembras) muy características (mancha de silla de montar), y las partes inferiores amarillentas con un ligero moteado oscuro. Los jóvenes presentan 5 o 7 hileras de manchas oscuras a lo largo del cuerpo, siendo más grandes las centrodorsales que las de los flancos.
+            </p>
+            <h3>Evolución</h3>
+            <p>La evidencia genética sugiere que la especie se originó en el Magreb, migrando hacia el sur de Europa entre 83 000 y 168 000 años atrás y hacia el sureste de Europa y el oeste de Asia posteriormente. Está más estrechamente relacionado con la especie de norteafricana Malpolon moilensis y con una especie fósil del Plioceno de España, Malpolon mlynarskii, con la que forma el género Malpolon. Malpolon tiene un buen registro fósil, que se remonta al Plioceno, tanto en el suroeste de Europa y el norte de África.
+            </p>
+            <h3>Veneno</h3>
+            <p>Debido a la situación posterior de sus colmillos, es difícil que éstos lleguen a ser efectivos al morder al hombre. Sin embargo, los ejemplares de mayor tamaño, al poseer una boca de gran amplitud, sí pueden causar envenenamientos leves, nunca mortales.
+              Solo se conocen algunos casos de envenenamiento en los seres humanos, uno de los cuales se produjo cuando se insertó un dedo en la boca de la serpiente. En tal caso, la picadura viene acompañada por la inflamación local y el dolor, edema y/o linfangitis o síntomas neurológicos (parestesias, disfagia, ptosis, disnea) o, excepcionalmente, una leve parálisis. Estos efectos son, sin embargo, pasajeros y tienen una fácil cura.
+              El veneno es de baja toxicidad; Un tratamiento sintomático es suficiente para tratar un envenenamiento.
+              </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <h1>Catálogo de animales</h1>
-    <h2>Los otros animales de la tierra</h2>
-    <div class="row justify-content-center">
-      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-        <img src="img/categorias/anfibios.jpeg" alt="" class="rounded-circle w-100 my-3">
-        <p class="bg-verdesito text-light fs-4">Anfibios</p>
+  </main>
+  <footer class="mt-3">
+    <div class="container">
+        <h1 class="text-center py-3">CLM SKILLS WEB - 2021</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-1"> <a name="" id="" class="btn bg-verdesito text-light" href="#top" role="button">SUBIR</a></div>
+      <div class="col-md-5">
+        <p class="text-center mb-3"><strong>Centros participantes</strong></p>
+        <p class="text-center my-1"><a href="http://www.ies-azarquiel.es/" class="text-light text-decoration-none">IES Azarquiel.</a></p>
+        <p class="text-center my-1"><a href="http://www.iesjuanbosco.es/" class="text-light text-decoration-none">I.E.S. Juan Bosco.</a></p>
+        <p class="text-center my-1"><a href="http://iesmaestredecalatrava.es/" class="text-light text-decoration-none">I.E.S. Maestre de Calatrava.</a></p>
+        <p class="text-center my-1"><a href="https://cifpvirgendegracia.com/" class="text-light text-decoration-none">C.I.F.P. Virgen de Gracia.</a></p>
+        <p class="text-center my-1"><a href="http://www.iesgregorioprieto.com/" class="text-light text-decoration-none">I.E.S. Gregorio Prieto</a></p>
+        <p class="text-center my-1"><a href="https://www.iespedromercedes.es/" class="text-light text-decoration-none">I.E.S. Pedro Mercedes. </a></p>
+        <p class="text-center my-1"><a href="http://briandademendoza.es/" class="text-light text-decoration-none">I.E.S. Brianda de Mendoza.</a></p>
+        <p class="text-center my-1"><a href="http://riberadeltajo.es/nuevaweb/" class="text-light text-decoration-none">I.E.S. Ribera del Tajo.</a></p>
       </div>
-      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-        <img src="img/categorias/aves.jpeg" alt="" class="rounded-circle w-100 my-3">
-        <p class="bg-verdesito text-light fs-4">Aves</p>
+      <div class="col-md-5">
+        <p class="text-center my-1"><a href="quienessomos.html" class="text-light text-decoration-none">Quienes somos</a></p>
+        <p class="text-center my-1"><a href="" data-bs-toggle="modal" data-bs-target="#privacidad" class="text-light text-decoration-none">Privacidad</a></p>
+        <p class="text-center my-1"><a href="" data-bs-toggle="modal" data-bs-target="#contacto" class="text-light text-decoration-none">Contacto</a></p>
       </div>
-      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-        <img src="img/categorias/maniferos.jpeg" alt="" class="rounded-circle w-100 my-3">
-        <p class="bg-verdesito text-light fs-4">Mamíferos</p>
-      </div>
-      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-        <img src="img/categorias/peces.jpeg" alt="" class="rounded-circle w-100 my-3">
-        <p class="bg-verdesito text-light fs-4">Peces</p>
-      </div>
-      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-5">
-        <img src="img/categorias/reptiles.jpeg" alt="" class="rounded-circle w-100 my-3">
-        <p class="bg-verdesito text-light fs-4">Reptiles</p>
-      </div>
+      <div class="col-md-1"> <a name="" id="" class="btn bg-verdesito text-light" href="index.html" role="button">HOME</a></div>
+        </div>
+        <p class="text-center pt-3 m-0"><strong>Catálogo de animales &copy; S1DAM - S1DAW</strong></p>
     </div>
-  </div>
-<footer class="mt-3">
-  <div class="container">
-      <h1 class="text-center py-3">CLM SKILLS WEB - 2021</h1>
-      <div class="row justify-content-center">
-        <div class="col-md-1"> <a name="" id="" class="btn bg-verdesito text-light" href="#top" role="button">SUBIR</a></div>
-    <div class="col-md-5">
-      <p class="text-center mb-3"><strong>Centros participantes</strong></p>
-      <p class="text-center my-1"><a href="http://www.ies-azarquiel.es/" class="text-light text-decoration-none">IES Azarquiel.</a></p>
-      <p class="text-center my-1"><a href="http://www.iesjuanbosco.es/" class="text-light text-decoration-none">I.E.S. Juan Bosco.</a></p>
-      <p class="text-center my-1"><a href="http://iesmaestredecalatrava.es/" class="text-light text-decoration-none">I.E.S. Maestre de Calatrava.</a></p>
-      <p class="text-center my-1"><a href="https://cifpvirgendegracia.com/" class="text-light text-decoration-none">C.I.F.P. Virgen de Gracia.</a></p>
-      <p class="text-center my-1"><a href="http://www.iesgregorioprieto.com/" class="text-light text-decoration-none">I.E.S. Gregorio Prieto</a></p>
-      <p class="text-center my-1"><a href="https://www.iespedromercedes.es/" class="text-light text-decoration-none">I.E.S. Pedro Mercedes. </a></p>
-      <p class="text-center my-1"><a href="http://briandademendoza.es/" class="text-light text-decoration-none">I.E.S. Brianda de Mendoza.</a></p>
-      <p class="text-center my-1"><a href="http://riberadeltajo.es/nuevaweb/" class="text-light text-decoration-none">I.E.S. Ribera del Tajo.</a></p>
-    </div>
-    <div class="col-md-5">
-      <p class="text-center my-1"><a href="quienessomos.html" class="text-light text-decoration-none">Quienes somos</a></p>
-      <p class="text-center my-1"><a href="" data-bs-toggle="modal" data-bs-target="#privacidad" class="text-light text-decoration-none">Privacidad</a></p>
-      <p class="text-center my-1"><a href="" data-bs-toggle="modal" data-bs-target="#contacto" class="text-light text-decoration-none">Contacto</a></p>
-    </div>
-    <div class="col-md-1"> <a name="" id="" class="btn bg-verdesito text-light" href="index.html" role="button">HOME</a></div>
-      </div>
-      <p class="text-center pt-3 m-0"><strong>Catálogo de animales &copy; S1DAM - S1DAW</strong></p>
-  </div>
-</footer>
+  </footer>
   <!-- MODALES -->
   <div class="modal fade" id="SignUp" tabindex="-1" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-md" role="document">
@@ -368,14 +382,14 @@
     const privacidad = new bootstrap.Modal(document.getElementById('privacidad'), options)
 
   </script>
-  <!-- Bootstrap JavaScript Libraries -->
+  <!-- Bootstrap JavaScript Libra ries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+    </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
